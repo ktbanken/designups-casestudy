@@ -100,7 +100,7 @@ textarea {
 Whole Page
    ========================================================================== */
 body{
-    font-family: sans-serif;
+    font-family: 'NTR', sans-serif;
 
 }
 /* ==========================================================================
@@ -173,6 +173,10 @@ body{
     color:#fff;
     text-decoration: none;
 }
+
+.information{
+
+}
 /* ==========================================================================
  Section2
    ========================================================================== */
@@ -224,7 +228,6 @@ left:10em;
     background-color: #fff;
     height:20em;
     color:rgb(223, 67, 67);
-    border:1px solid green;
     padding:5em;
 ;
 }
@@ -285,6 +288,7 @@ width: 20%;
 position:absolute;
 right:10em;
 width:15%;
+line-height: .4em;
 }
 
 .footer-rightcolumn1{
