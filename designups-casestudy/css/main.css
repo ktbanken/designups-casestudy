@@ -161,7 +161,6 @@ body{
 .section1-body a:visited{
     color:#fff;
 }
-
 .main-nav{
     position: fixed;
     top:6em;
@@ -194,11 +193,12 @@ body{
     width: 40%;
     height:40em;
 }
-
+.purpous p{
+    width:10em;
+}
 .section2-column2{
     float:right;
     width: 60%;
-
 }
 
 .connect-img{
@@ -209,13 +209,15 @@ body{
     height:40em;
 
 }
-.section2 h3{
+.column1-content h3{
     color:#fff;
+    font-size: 160%;
+    line-height: .5em;
 }
 
 .section2 p{
     color:#fff;
-    line-height:1;
+    line-height:1.8;
 }
 .section2 a{
     color:#fff;
@@ -225,8 +227,8 @@ body{
 }
 .column1-content{
 position:absolute;
-top:60em;
-left:10em;
+top:54em;
+left:12.5em;
 }
 /* ==========================================================================
  Section3
