@@ -202,7 +202,7 @@ body{
     float:left;
     background-color: rgb(223, 67, 67);
     width: 40%;
-    height:40em;
+    height:45em;
 }
 .purpous p{
     width:10em;
@@ -217,7 +217,7 @@ body{
     right:0em;
     z-index: -10;
     width: 60%;
-    height:40em;
+    height:45em;
 
 }
 .column1-content h3{
@@ -247,31 +247,32 @@ left:12.5em;
 .section3{
     clear:both;
     background-color: #fff;
-    height:20em;
+    height:35em;
     color:rgb(223, 67, 67);
     padding:5em;
-;
-}
-.section3-content {
-        border: 0.625em solid rgb(223, 67, 67);
-        width:50rem;
-        height:16rem;
-        position:relative;
-        left: 10em;
-        padding:4em;
-        padding-top: 1em;
-
 }
 
 .section3-content h3{
-    text-align: center;
+    position:relative;
+    left:15em;
     width:50em;
+    font-size: 210%;
+    font-weight: lighter;
+    width: 20em;
+    max-width: 100%;
+    min-width: 100%;
 
 }
 .section3-content p{
-    padding-left:6em;
-    width: 50em;
-}
+    position: relative;
+    left:15em;
+    font-size: 165%;
+    line-height: 1em;
+    width: 20em;
+    max-width: 100%;
+    min-width: 100%;
+}   
+
 
 .lets-talk{
     position: relative;
@@ -296,7 +297,7 @@ Footer
    ========================================================================== */
 footer{
     background:rgb(247, 214, 53);
-    height:24em;
+    height:30em;
 }
 
 .footer-leftcolumn{
@@ -394,9 +395,7 @@ right:1em;
 .fixed-footer-column2 .fa-arrow-right{
 color:red;
 }
-.base-footer{
-    position: relative;
-}
+
 .footer-column1{
     position: absolute;
     top:23em;
@@ -407,6 +406,10 @@ color:red;
     top:23em;
     right:1em;
 }
+.base-footer{
+    position: relative;
+}
+
 .base-footer a{
     text-decoration: none;
 }
