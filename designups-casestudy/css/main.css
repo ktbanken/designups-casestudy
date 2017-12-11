@@ -144,10 +144,13 @@ body{
     letter-spacing: 0.09375rem;
 }
 .intro-content-button{
+   display:inline-block;
     position: relative;
     font-size: 175%;
     line-height:.00001em;
     font-weight: lighter;
+    padding:.1875em;
+
 
 }
 .intro-content-button:hover{
@@ -302,9 +305,12 @@ line-height: .1em;
     font-weight: lighter;
 
 }   
-.section3-content p a{
+.section3-content a{
     color:rgb(223, 67, 67);
+    padding: 1px;
+
 }
+
 .section3-content a:visited{
     color:rgb(223, 67, 67);
 }
@@ -317,8 +323,9 @@ line-height: .1em;
     top:4em;
     left:30%;
     font-size: 250%;
-        color:#000;
+    color:#000;
 }
+
 .lets-talk:hover{
     text-decoration: none;
     background-color: rgb(243, 140, 156);
