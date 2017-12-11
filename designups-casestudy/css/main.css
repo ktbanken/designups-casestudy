@@ -108,45 +108,54 @@ body{
    ========================================================================== */
 .topbar-column1{
     position:fixed;
-    top:.03125em;
-    left:2.81em;
+    top:-.5em;
+    left:2.90em;
     z-index: 10;
     color:#fff;
-    font-size: 60%;
+    font-size: 88%;
+    letter-spacing: .001em;
 
 }
 .topbar-column2{
     position:fixed;
-    top:.03125em;
+    top:.1em;
     right:1em;
     z-index: 10;
 }
 .backgroundgraident{
     display:inline;
-    height:680px;
+    height:711px;
     max-width: 100%;
     z-index: -10;
 }
 .intro-content{
     max-width: 100%;
-    min-width: 10em;
+    overflow: hidden;
+    font-size: 130%;
+    line-height: .1em;
+
 }
 .section1-body{
     position: absolute;
-    left:15em;
-    top:14em;
+    left:17em;
+    top:12em;
     z-index: 10;
     color:#fff;
     letter-spacing: 0.09375rem;
-    line-height: 0.09375rem;
 }
-.section1-body a:hover{
-    background-color: rgb(179, 67, 82);
-    text-decoration: none;
+.intro-content-button{
+    position: relative;
+    font-size: 175%;
+    line-height:.00001em;
+    font-weight: lighter;
 
 }
-.section1 h1{
-    font-size: 255%;
+.intro-content-button:hover{
+    background-color: rgb(179, 67, 82);
+    text-decoration: none;
+    font-weight: lighter;
+    line-height:.00001em;
+
 }
 .section1 h1 a{
     text-decoration: none;
@@ -158,9 +167,12 @@ body{
 .intro{
     text-transform: uppercase;
     font-size: 75%;
+    line-height: .000000000009em;
+
 }
 .mission{
     font-size:320%;
+
 }
 .more-about-us{
     color:#fff;
@@ -168,6 +180,8 @@ body{
 .section1-body h3{
     font-size: 150%;
     letter-spacing:0.09375rem;
+
+
 }
 .section1-body a:visited{
     color:#fff;
@@ -183,6 +197,7 @@ body{
 }
 .main-nav ul{
     list-style-type: none;
+    font-size: 130%;
 }
 .main-nav a{
     text-decoration: none;
@@ -220,12 +235,21 @@ body{
     height:45em;
 
 }
-.column1-content h3{
-    color:#fff;
-    font-size: 160%;
-    line-height: .5em;
+.column1-content{
+position:absolute;
+top:55em;
+left:15em;
+line-height: .1em;
 }
 
+.column1-content h3{
+    color:#fff;
+    font-size: 190%;
+    line-height: .5em;
+}
+.column1-content p{
+    font-size: 130%;
+}
 .section2 p{
     color:#fff;
     line-height:1.8;
@@ -235,11 +259,6 @@ body{
 }
 .section2 a:hover{
     text-decoration: none;
-}
-.column1-content{
-position:absolute;
-top:54em;
-left:12.5em;
 }
 /* ==========================================================================
  Section3
@@ -251,11 +270,11 @@ left:12.5em;
 }
 
 .section3-content{
-    border:.5em solid rgb(223, 67, 67);
+    border:.6em solid rgb(223, 67, 67);
     position: relative;
     top:7em;
-    left:15em;
-    width: 47em;
+    left:16em;
+    width: 50em;
     padding: 2em;
 }
 
@@ -298,9 +317,11 @@ left:12.5em;
     top:4em;
     left:30%;
     font-size: 250%;
+        color:#000;
 }
-.lets-talk{
-    color:#000;
+.lets-talk:hover{
+    text-decoration: none;
+    background-color: rgb(243, 140, 156);
 }
 .lets-talk:visited{
     color:#000;
@@ -311,7 +332,7 @@ Footer
    ========================================================================== */
 footer{
     background:rgb(247, 214, 53);
-    height:29em;
+    height:21em;
 }
 
 .footer-leftcolumn{
@@ -328,15 +349,15 @@ text-decoration: none;
 position:absolute;
 right:10em;
 width:15%;
-line-height: .4em;
-font-size: 130%;
+line-height: 1em;
+font-size: 150%;
 }
 
 .footer-rightcolumn1{
 position: absolute;
 right:25em;
 width:15%;
-font-size: 130%;
+font-size: 150%;
 }
 
 .directions{
@@ -412,14 +433,17 @@ color:red;
 
 .footer-column1{
     position: absolute;
-    top:23em;
+    top:16em;
     left:1em;
 }
 .footer-column2{
     position: absolute;
-    top:23em;
+    top:16em;
     right:1em;
 }
+/* ==========================================================================
+   Base Footer
+   ========================================================================== */
 .base-footer{
     position: relative;
 }
